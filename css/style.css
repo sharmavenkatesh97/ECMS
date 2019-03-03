@@ -1,0 +1,125 @@
+body {
+  margin-top: 105px;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #C50707;
+  opacity: 0.9;
+  background: #fff;
+}
+
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+#Read_More {
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+  /* color: white;
+  background-color: black;
+  opacity: 0.8; */
+}
+
+#a1, #a2, #a3 {
+  color: white;
+  background-color: black;
+  opacity: 0.8;
+}
+
+#ca {
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+}
+
+#showcase {
+  position: relative;
+  background: url("../img/home.jpg");
+  background-repeat: no-repeat;
+  min-height: 600px;
+  width: 100%;
+  height: 100%;
+}
+
+#showcase .primary-overlay {
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#boxes .primary-overlay {
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
+
+#authors img {
+  margin-top: -50px;
+}
+
+#authors .card:hover {
+  background: #5e0606;
+  color: #fff;
+}
+
+#authors .fab {
+  color: #fff;
+}
+
+#contact, #boxes, #about, #authors {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/black.jpg");
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-position: 0 -300px;
+  text-align: center;
+}
+
+.fas {
+  color: #a23131
+}
+
+#main-footer {
+  background-color: #5e0606;
+  color: #fff;
+}
+
+#submit:hover {
+  background-color: #5e0606 !important;
+  color: #fff;
+}
+
+@media(max-width:1235px) {
+  #Read_More {
+    display: none
+  }
+}
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px;
+  }
+
+  #showcase h1 {
+    font-size: 4rem;
+  }
+
+  .mb-resp {
+    margin-bottom: 1rem;
+  }
+}
